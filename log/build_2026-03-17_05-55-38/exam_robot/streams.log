@@ -1,0 +1,46 @@
+[1.308s] Invoking command in '/home/student/ros2_ws/src/exam_robot': PYTHONPATH=/home/student/ros2_ws/build/exam_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exam_robot build --build-base /home/student/ros2_ws/build/exam_robot/build install --record /home/student/ros2_ws/build/exam_robot/install.log --single-version-externally-managed install_data
+[1.623s] running egg_info
+[1.649s] writing ../../build/exam_robot/exam_robot.egg-info/PKG-INFO
+[1.649s] writing dependency_links to ../../build/exam_robot/exam_robot.egg-info/dependency_links.txt
+[1.649s] writing entry points to ../../build/exam_robot/exam_robot.egg-info/entry_points.txt
+[1.649s] writing requirements to ../../build/exam_robot/exam_robot.egg-info/requires.txt
+[1.650s] writing top-level names to ../../build/exam_robot/exam_robot.egg-info/top_level.txt
+[1.807s] reading manifest file '../../build/exam_robot/exam_robot.egg-info/SOURCES.txt'
+[1.808s] writing manifest file '../../build/exam_robot/exam_robot.egg-info/SOURCES.txt'
+[1.809s] running build
+[1.809s] running build_py
+[1.809s] copying exam_robot/distance_sensor.py -> /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot
+[1.809s] copying exam_robot/robot_controller.py -> /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot
+[1.810s] copying exam_robot/status_display.py -> /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot
+[1.810s] copying exam_robot/battery_node.py -> /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot
+[1.811s] running install
+[1.817s] running install_lib
+[1.841s] copying /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot/distance_sensor.py -> /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot
+[1.841s] copying /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot/robot_controller.py -> /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot
+[1.842s] copying /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot/status_display.py -> /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot
+[1.842s] copying /home/student/ros2_ws/build/exam_robot/build/lib/exam_robot/battery_node.py -> /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot
+[1.843s] byte-compiling /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/distance_sensor.py to distance_sensor.cpython-312.pyc
+[1.843s]   File "/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/distance_sensor.py", line 37
+[1.843s]     elif self.distance = 3.0
+[1.843s]          ^^^^^^^^^^^^^
+[1.843s] SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+[1.844s] 
+[1.844s] byte-compiling /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/robot_controller.py to robot_controller.cpython-312.pyc
+[1.844s]   File "/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/robot_controller.py", line 41
+[1.844s]     elif self.status = "WARNING: Low battery":
+[1.844s]          ^^^^^^^^^^^
+[1.845s] SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+[1.845s] 
+[1.845s] byte-compiling /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/status_display.py to status_display.cpython-312.pyc
+[1.845s] byte-compiling /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/battery_node.py to battery_node.cpython-312.pyc
+[1.845s] running install_data
+[1.845s] running install_egg_info
+[1.870s] removing '/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[1.870s] Copying ../../build/exam_robot/exam_robot.egg-info to /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot-0.0.0-py3.12.egg-info
+[1.872s] running install_scripts
+[1.936s] Installing battey_node script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot
+[1.937s] Installing distance_sensor script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot
+[1.937s] Installing robot_controller script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot
+[1.937s] Installing status_display script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot
+[1.938s] writing list of installed files to '/home/student/ros2_ws/build/exam_robot/install.log'
+[1.961s] Invoked command in '/home/student/ros2_ws/src/exam_robot' returned '0': PYTHONPATH=/home/student/ros2_ws/build/exam_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exam_robot build --build-base /home/student/ros2_ws/build/exam_robot/build install --record /home/student/ros2_ws/build/exam_robot/install.log --single-version-externally-managed install_data

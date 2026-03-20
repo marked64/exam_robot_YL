@@ -1,0 +1,28 @@
+[1.373s] Invoking command in '/home/student/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[1.771s] running develop
+[2.044s] running egg_info
+[2.070s] writing my_robot_controller.egg-info/PKG-INFO
+[2.071s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.071s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.072s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.072s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.124s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.126s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.151s] running build_ext
+[2.152s] Creating /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[2.153s] Installing car script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.153s] Installing encoder_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.154s] Installing imu_reader script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.154s] Installing imu_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.154s] Installing lidar_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.154s] Installing my_first_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.155s] Installing my_second_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.155s] Installing robot_news_station script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.155s] Installing smartphone script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.156s] Installing temperature_sensor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.156s] Installing traffic_light script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.156s] Installing wheel_odometry script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.156s] 
+[2.156s] Installed /home/student/ros2_ws/build/my_robot_controller
+[2.156s] running symlink_data
+[2.192s] Invoked command in '/home/student/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

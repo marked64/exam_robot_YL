@@ -1,0 +1,5 @@
+  File "/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam_robot/distance_sensor.py", line 37
+    elif self.distance = 3.0
+         ^^^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+

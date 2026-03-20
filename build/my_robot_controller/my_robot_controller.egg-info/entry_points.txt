@@ -1,0 +1,17 @@
+[console_scripts]
+battery_node = my_robot_controller.battery_node:main
+car = my_robot_controller.car:main
+encoder_simulator = my_robot_controller.encoder_simulator:main
+imu_reader = my_robot_controller.imu_reader:main
+imu_simulator = my_robot_controller.imu_simulator:main
+lidar_simulator = my_robot_controller.lidar_simulator:main
+my_first_node = my_robot_controller.my_first_node:main
+my_second_node = my_robot_controller.my_second_node:main
+robot_news_station = my_robot_controller.robot_news_file:main
+smartphone = my_robot_controller.smartphone:main
+static_transform_publisher = my_robot_controller.static_transform_publisher:main
+stm32_bridge = my_robot_controller.stm32_bridge:main
+system_monitor = my_robot_controller.system_monitor:main
+temperature_sensor = my_robot_controller.temperature_sensor:main
+traffic_light = my_robot_controller.traffic_light:main
+wheel_odometry = my_robot_controller.wheel_odometry:main

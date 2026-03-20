@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001037] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001343] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.100320] (-) TimerEvent: {}
+[0.200827] (-) TimerEvent: {}
+[0.301169] (-) TimerEvent: {}
+[0.401565] (-) TimerEvent: {}
+[0.503451] (-) TimerEvent: {}
+[0.603982] (-) TimerEvent: {}
+[0.704488] (-) TimerEvent: {}
+[0.805288] (-) TimerEvent: {}
+[0.905862] (-) TimerEvent: {}
+[1.006345] (-) TimerEvent: {}
+[1.106869] (-) TimerEvent: {}
+[1.207251] (-) TimerEvent: {}
+[1.308158] (-) TimerEvent: {}
+[1.408691] (-) TimerEvent: {}
+[1.509391] (-) TimerEvent: {}
+[1.610884] (-) TimerEvent: {}
+[1.711392] (-) TimerEvent: {}
+[1.811781] (-) TimerEvent: {}
+[1.912744] (-) TimerEvent: {}
+[2.020150] (-) TimerEvent: {}
+[2.121197] (-) TimerEvent: {}
+[2.221899] (-) TimerEvent: {}
+[2.322906] (-) TimerEvent: {}
+[2.423717] (-) TimerEvent: {}
+[2.525117] (-) TimerEvent: {}
+[2.626455] (-) TimerEvent: {}
+[2.728570] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/ros2_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/student/ros2_ws/build/my_robot_controller', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '992265bdf563', 'GIT_ASKPASS': '/home/student/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/student/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/bin/helpers/browser.sh', 'HOME': '/home/student', 'OLDPWD': '/home/student/ros2_ws/src/my_robot_controller/urdf', 'TERM_PROGRAM_VERSION': '1.110.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f3e770bd-688c-432f-930d-602d1f2c8e4e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/student/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/student/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/student/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b7fab9cb-ba2d-420e-bac7-7390acb5ac4d.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/student/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/course_venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-3defc080ee.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/student/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/student/ros2_ws/build/my_robot_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/student/ros2_ws/build/my_robot_controller:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.735837] (-) TimerEvent: {}
+[2.836310] (-) TimerEvent: {}
+[2.937203] (-) TimerEvent: {}
+[3.037864] (-) TimerEvent: {}
+[3.139249] (-) TimerEvent: {}
+[3.239993] (-) TimerEvent: {}
+[3.345482] (-) TimerEvent: {}
+[3.446311] (-) TimerEvent: {}
+[3.547043] (-) TimerEvent: {}
+[3.652896] (-) TimerEvent: {}
+[3.753360] (-) TimerEvent: {}
+[3.854275] (-) TimerEvent: {}
+[3.893425] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[3.954475] (-) TimerEvent: {}
+[4.055293] (-) TimerEvent: {}
+[4.156219] (-) TimerEvent: {}
+[4.258121] (-) TimerEvent: {}
+[4.359892] (-) TimerEvent: {}
+[4.460356] (-) TimerEvent: {}
+[4.564637] (-) TimerEvent: {}
+[4.665114] (-) TimerEvent: {}
+[4.752574] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.765240] (-) TimerEvent: {}
+[4.813969] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[4.814719] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[4.816715] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[4.817274] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[4.817508] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[4.865469] (-) TimerEvent: {}
+[4.945305] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.949237] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.965640] (-) TimerEvent: {}
+[5.028724] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[5.029365] (my_robot_controller) StdoutLine: {'line': b'Creating /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[5.033555] (my_robot_controller) StdoutLine: {'line': b'Installing battery_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.034416] (my_robot_controller) StdoutLine: {'line': b'Installing car script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.035607] (my_robot_controller) StdoutLine: {'line': b'Installing encoder_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.035865] (my_robot_controller) StdoutLine: {'line': b'Installing imu_reader script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.036050] (my_robot_controller) StdoutLine: {'line': b'Installing imu_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.036225] (my_robot_controller) StdoutLine: {'line': b'Installing lidar_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.036459] (my_robot_controller) StdoutLine: {'line': b'Installing my_first_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.036702] (my_robot_controller) StdoutLine: {'line': b'Installing my_second_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.036963] (my_robot_controller) StdoutLine: {'line': b'Installing robot_news_station script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.037164] (my_robot_controller) StdoutLine: {'line': b'Installing smartphone script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.037322] (my_robot_controller) StdoutLine: {'line': b'Installing static_transform_publisher script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.037570] (my_robot_controller) StdoutLine: {'line': b'Installing stm32_bridge script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.037731] (my_robot_controller) StdoutLine: {'line': b'Installing system_monitor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.039442] (my_robot_controller) StdoutLine: {'line': b'Installing temperature_sensor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.039759] (my_robot_controller) StdoutLine: {'line': b'Installing traffic_light script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.039998] (my_robot_controller) StdoutLine: {'line': b'Installing wheel_odometry script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.040213] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[5.040538] (my_robot_controller) StdoutLine: {'line': b'Installed /home/student/ros2_ws/build/my_robot_controller\n'}
+[5.040768] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[5.040994] (my_robot_controller) StdoutLine: {'line': b'symbolically linking /home/student/ros2_ws/build/my_robot_controller/launch/view_robot.launch.py -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[5.041286] (my_robot_controller) StdoutLine: {'line': b'symbolically linking /home/student/ros2_ws/build/my_robot_controller/urdf/simple_robot.urdf -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/urdf\n'}
+[5.065832] (-) TimerEvent: {}
+[5.161878] (my_robot_controller) CommandEnded: {'returncode': 0}
+[5.166187] (-) TimerEvent: {}
+[5.209607] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[5.213518] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[1.078s] Invoking command in '/home/student/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[1.467s] running develop
+[1.759s] running egg_info
+[1.805s] writing my_robot_controller.egg-info/PKG-INFO
+[1.805s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.805s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.806s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.806s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.858s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.859s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.884s] running build_ext
+[1.884s] Creating /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[1.885s] Installing my_first_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.885s] Installing my_second_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.886s] Installing robot_news_station script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.886s] Installing smartphone script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.886s] Installing temperature_sensor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.886s] 
+[1.887s] Installed /home/student/ros2_ws/build/my_robot_controller
+[1.887s] running symlink_data
+[1.913s] Invoked command in '/home/student/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
