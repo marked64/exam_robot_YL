@@ -59,4 +59,16 @@ def generate_launch_description():
         name='system_monitor',
         output='screen'
         ),
+        Node(
+        package='my_robot_controller',
+        executable='sensor_fusion',
+        name='sensor_fusion',
+        output='screen'
+        ),
+        Node(
+        package='my_robot_controller',
+        executable='calibration_helper',
+        name='calibration_helper',
+        output='screen'
+        ),
         ])

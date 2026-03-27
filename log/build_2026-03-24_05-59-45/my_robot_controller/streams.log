@@ -1,0 +1,34 @@
+[1.997s] Invoking command in '/home/student/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[2.629s] running develop
+[3.030s] running egg_info
+[3.076s] writing my_robot_controller.egg-info/PKG-INFO
+[3.076s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[3.077s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[3.077s] writing requirements to my_robot_controller.egg-info/requires.txt
+[3.078s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[3.161s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.164s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.200s] running build_ext
+[3.201s] Creating /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[3.202s] Installing battery_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.202s] Installing calibration_helper script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.202s] Installing car script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.203s] Installing encoder_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.204s] Installing imu_reader script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.204s] Installing imu_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.205s] Installing lidar_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.205s] Installing my_first_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.205s] Installing my_second_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.206s] Installing robot_news_station script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.207s] Installing sensor_fusion script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.207s] Installing smartphone script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.208s] Installing static_transform_publisher script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.208s] Installing stm32_bridge script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.208s] Installing system_monitor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.208s] Installing temperature_sensor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.209s] Installing traffic_light script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.209s] Installing wheel_odometry script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[3.210s] 
+[3.210s] Installed /home/student/ros2_ws/build/my_robot_controller
+[3.210s] running symlink_data
+[3.277s] Invoked command in '/home/student/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

@@ -1,13 +1,18 @@
 [console_scripts]
 battery_node = my_robot_controller.battery_node:main
+calibration_helper = my_robot_controller.calibration_helper:main
 car = my_robot_controller.car:main
 encoder_simulator = my_robot_controller.encoder_simulator:main
+free_space_detector = my_robot_controller.free_space_detector:main
 imu_reader = my_robot_controller.imu_reader:main
 imu_simulator = my_robot_controller.imu_simulator:main
+lidar_processor = my_robot_controller.lidar_processor:main
+lidar_room_simulator = my_robot_controller.lidar_room_simulator:main
 lidar_simulator = my_robot_controller.lidar_simulator:main
 my_first_node = my_robot_controller.my_first_node:main
 my_second_node = my_robot_controller.my_second_node:main
 robot_news_station = my_robot_controller.robot_news_file:main
+sensor_fusion = my_robot_controller.sensor_fusion:main
 smartphone = my_robot_controller.smartphone:main
 static_transform_publisher = my_robot_controller.static_transform_publisher:main
 stm32_bridge = my_robot_controller.stm32_bridge:main

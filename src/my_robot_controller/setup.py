@@ -44,7 +44,12 @@ setup(
          'stm32_bridge = my_robot_controller.stm32_bridge:main',
          'battery_node = my_robot_controller.battery_node:main',
          'system_monitor = my_robot_controller.system_monitor:main',
-         'static_transform_publisher = my_robot_controller.static_transform_publisher:main'
+         'static_transform_publisher = my_robot_controller.static_transform_publisher:main',
+         'sensor_fusion = my_robot_controller.sensor_fusion:main',
+         'calibration_helper = my_robot_controller.calibration_helper:main',
+         'lidar_processor = my_robot_controller.lidar_processor:main',
+         'lidar_room_simulator = my_robot_controller.lidar_room_simulator:main',
+         'free_space_detector = my_robot_controller.free_space_detector:main'
         ],
     },
 )

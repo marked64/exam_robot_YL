@@ -16,8 +16,8 @@ class EncoderSimulator(Node):
         super().__init__('encoder_simulator')
         # Параметры робота
         self.counts_per_rev = 16384 # разрешение энкодера
-        self.wheel_diameter = 0.065 # метров
-        self.wheel_base = 0.25 # расстояние между колёсами
+        self.wheel_diameter = 0.06625 # метров
+        self.wheel_base = 0.255 # расстояние между колёсами
         self.wheel_circumference = math.pi * self.wheel_diameter
 
         # Счётчики энкодеров [LF, LR, RF, RR]
